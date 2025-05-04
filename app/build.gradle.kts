@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.inappmessaging)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -68,4 +69,6 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.2.1") // Optional: Compose Material 3
     implementation("androidx.compose.ui:ui-util:1.6.5")
     implementation("androidx.compose.foundation:foundation:1.6.5")
+    implementation("androidx.biometric:biometric:1.1.0")
+
 }
