@@ -17,9 +17,6 @@ class UserViewModel : ViewModel() {
     private val _isAuthenticated = mutableStateOf(false)
     val isAuthenticated: State<Boolean> = _isAuthenticated
 
-    // Dummy credentials for the example
-    private val validCredentials = mapOf("user" to "Password123!")
-
     // Function to clear the error
     fun clearError() {
         _error.value = null
